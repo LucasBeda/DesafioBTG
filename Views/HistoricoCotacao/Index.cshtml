@@ -1,0 +1,41 @@
+﻿@model IEnumerable<DesafioBTG.Models.Cotacao>
+
+@{
+    ViewData["Title"] = "Histórico Cotação";
+}
+
+<h1>Histórico Cotação</h1>
+
+<form asp-controller="HistoricoCotacao"
+      asp-action="Index" method="post">
+    <input type="hidden"
+           name="guid" value="@Guid.NewGuid()" />
+    <button type="submit">Reload Grid</button>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.bitcoin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ethereum)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.bitcoin)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ethereum)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

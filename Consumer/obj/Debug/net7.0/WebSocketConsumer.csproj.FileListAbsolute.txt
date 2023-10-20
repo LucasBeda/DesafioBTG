@@ -1,0 +1,15 @@
+D:\Projeto\DesafioBTG\WebSocketConsumer\bin\Debug\net7.0\WebSocketConsumer.exe
+D:\Projeto\DesafioBTG\WebSocketConsumer\bin\Debug\net7.0\WebSocketConsumer.deps.json
+D:\Projeto\DesafioBTG\WebSocketConsumer\bin\Debug\net7.0\WebSocketConsumer.runtimeconfig.json
+D:\Projeto\DesafioBTG\WebSocketConsumer\bin\Debug\net7.0\WebSocketConsumer.dll
+D:\Projeto\DesafioBTG\WebSocketConsumer\bin\Debug\net7.0\WebSocketConsumer.pdb
+D:\Projeto\DesafioBTG\WebSocketConsumer\obj\Debug\net7.0\WebSocketConsumer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projeto\DesafioBTG\WebSocketConsumer\obj\Debug\net7.0\WebSocketConsumer.AssemblyInfoInputs.cache
+D:\Projeto\DesafioBTG\WebSocketConsumer\obj\Debug\net7.0\WebSocketConsumer.AssemblyInfo.cs
+D:\Projeto\DesafioBTG\WebSocketConsumer\obj\Debug\net7.0\WebSocketConsumer.csproj.CoreCompileInputs.cache
+D:\Projeto\DesafioBTG\WebSocketConsumer\obj\Debug\net7.0\WebSocketConsumer.dll
+D:\Projeto\DesafioBTG\WebSocketConsumer\obj\Debug\net7.0\refint\WebSocketConsumer.dll
+D:\Projeto\DesafioBTG\WebSocketConsumer\obj\Debug\net7.0\WebSocketConsumer.pdb
+D:\Projeto\DesafioBTG\WebSocketConsumer\obj\Debug\net7.0\WebSocketConsumer.genruntimeconfig.cache
+D:\Projeto\DesafioBTG\WebSocketConsumer\obj\Debug\net7.0\ref\WebSocketConsumer.dll
+D:\Projeto\DesafioBTG\WebSocketConsumer\obj\Debug\net7.0\WebSocketConsumer.csproj.AssemblyReference.cache
