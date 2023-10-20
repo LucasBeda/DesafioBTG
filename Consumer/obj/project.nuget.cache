@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EnTBi7VNWR4iEPXWzwpPH56LaiqowCaKDQU/ZHZyQWifkt49TfSydhcysY7vgz7YpfDDJ0nv/TjXz0Kd1TbbfQ==",
+  "dgSpecHash": "LI0uvfD8qOHLrVxQhNejknoRMgAqu15s8/CWQULvp5zEPtIfqrfNovmYF5d7r0QMzh5gc3SBtYG0Wcu+pFb3Pg==",
   "success": true,
-  "projectFilePath": "D:\\Projeto\\DesafioBTG\\Consumer\\Consumer.csproj",
+  "projectFilePath": "D:\\DesafioBTG\\Consumer\\Consumer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC-Lkz\\.nuget\\packages\\confluent.kafka\\2.2.0\\confluent.kafka.2.2.0.nupkg.sha512",
     "C:\\Users\\PC-Lkz\\.nuget\\packages\\librdkafka.redist\\2.2.0\\librdkafka.redist.2.2.0.nupkg.sha512",

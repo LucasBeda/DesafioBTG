@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HwP0YXwv+09dlYXB7b9803XYNfhUfba9grPtnIgTXdCJKBeXCy0XANuGHXV8w0UKo9/fK2NKs+nt/ASm+seNTg==",
+  "dgSpecHash": "LTjpKbl14RUl7AvpNYTtT5LFn1eqLob5tGtqV61hvmzgyXIBy79ExLQPKDpcwiYsrenv4HxAjoSABRs2OqztuA==",
   "success": true,
-  "projectFilePath": "D:\\Projeto\\DesafioBTG\\WebSocketCotacao\\WebSocketCotacao.csproj",
+  "projectFilePath": "D:\\DesafioBTG\\WebSocketCotacao\\WebSocketCotacao.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC-Lkz\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\PC-Lkz\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
