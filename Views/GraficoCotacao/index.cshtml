@@ -1,0 +1,59 @@
+﻿@model IEnumerable<DesafioBTG.Models.Cotacao>
+
+@{
+    ViewData["Title"] = "Gráfico Cotação";
+}
+
+<h1>Gráfico Cotação</h1>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+    google.charts.load('current', { packages: ['corechart', 'line'] });
+</script>
+
+<script type="text/javascript">
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+        $.ajax({
+            url: '@Url.Action("ObterHistoricoCotacao")',
+            dataType: "json",
+        }).done(function (jsonData) {
+            var data = new google.visualization.DataTable();
+            data.addColumn('number', 'posicaoGrafico');
+            data.addColumn('number', 'Bitcoin');
+            data.addColumn('number', 'Ethereum');
+
+            jsonData.forEach(function (row) {
+                data.addRow([
+                    row.posicaoGrafico,
+                    row.bitcoin,
+                    row.ethereum
+                ]);
+            });            
+
+            var options = {
+                hAxis: {
+                    title: 'Time'
+                },
+                vAxis: {
+                    title: 'Popularity'
+                },
+                colors: ['#a52714', '#097138'],
+                crosshair: {
+                    color: '#000',
+                    trigger: 'selection'
+                }
+            };
+
+            var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+            chart.draw(data, options);
+            chart.setSelection([{ row: 38, column: 1 }]);
+        }).fail(function (jq, text, err) {
+            console.log(text + ' - ' + err);
+        });
+    }
+</script>
+
+<div id="curve_chart" style="width: 900px; height: 500px"></div>

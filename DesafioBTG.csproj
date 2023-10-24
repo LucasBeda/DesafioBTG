@@ -12,7 +12,9 @@
 
   <ItemGroup>
     <PackageReference Include="Confluent.Kafka" Version="2.2.0" />
-    <PackageReference Include="Microsoft.AspNet.WebPages.WebData" Version="3.2.9" />
+    <PackageReference Include="Google.DataTable.Net.Wrapper" Version="4.1.0" />
+    <PackageReference Include="highcharts.js" Version="7.1.2" />
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.9" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     <PackageReference Include="Websocket.Client" Version="5.0.0" />

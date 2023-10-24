@@ -750,11 +750,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DesafioBTG\\WebSocketCotacao\\WebSocketCotacao.csproj",
+      "projectUniqueName": "D:\\Projeto\\DesafioBTG\\WebSocketCotacao\\WebSocketCotacao.csproj",
       "projectName": "WebSocketCotacao",
-      "projectPath": "D:\\DesafioBTG\\WebSocketCotacao\\WebSocketCotacao.csproj",
+      "projectPath": "D:\\Projeto\\DesafioBTG\\WebSocketCotacao\\WebSocketCotacao.csproj",
       "packagesPath": "C:\\Users\\PC-Lkz\\.nuget\\packages\\",
-      "outputPath": "D:\\DesafioBTG\\WebSocketCotacao\\obj\\",
+      "outputPath": "D:\\Projeto\\DesafioBTG\\WebSocketCotacao\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -6,12 +6,26 @@
 
 <h1>Histórico Cotação</h1>
 
-<form asp-controller="HistoricoCotacao"
-      asp-action="Index" method="post">
-    <input type="hidden"
-           name="guid" value="@Guid.NewGuid()" />
-    <button type="submit">Reload Grid</button>
-</form>
+<table class="table">
+    <tr>
+        <form asp-controller="HistoricoCotacao"
+              asp-action="Index" method="post">
+            <input type="hidden"
+                   name="guid" value="@Guid.NewGuid()" />
+            <button type="submit">Reload Grid</button>
+        </form>
+    </tr>
+    <tr>&nbsp;</tr>
+    <tr>&nbsp;</tr>
+    <tr>
+        <form asp-controller="GraficoCotacao"
+              asp-action="Index" method="post">
+            <input type="hidden"
+                   name="guid" value="@Guid.NewGuid()" />
+            <button type="submit">Gráfico</button>
+        </form>
+    </tr>
+</table>
 
 <table class="table">
     <thead>

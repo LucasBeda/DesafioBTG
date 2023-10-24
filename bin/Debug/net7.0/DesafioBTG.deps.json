@@ -9,10 +9,12 @@
       "DesafioBTG/1.0.0": {
         "dependencies": {
           "Confluent.Kafka": "2.2.0",
-          "Microsoft.AspNet.WebPages.WebData": "3.2.9",
+          "Google.DataTable.Net.Wrapper": "4.1.0",
+          "Microsoft.AspNet.Mvc": "5.2.9",
           "Newtonsoft.Json": "13.0.3",
           "Swashbuckle.AspNetCore": "6.5.0",
-          "Websocket.Client": "5.0.0"
+          "Websocket.Client": "5.0.0",
+          "highcharts.js": "7.1.2"
         },
         "runtime": {
           "DesafioBTG.dll": {}
@@ -30,6 +32,15 @@
           }
         }
       },
+      "Google.DataTable.Net.Wrapper/4.1.0": {
+        "runtime": {
+          "lib/net5.0/Google.DataTable.Net.Wrapper.dll": {
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "4.1.0.0"
+          }
+        }
+      },
+      "highcharts.js/7.1.2": {},
       "librdkafka.redist/2.2.0": {
         "runtimeTargets": {
           "runtimes/linux-arm64/native/librdkafka.so": {
@@ -159,20 +170,45 @@
           }
         }
       },
-      "Microsoft.AspNet.WebPages.Data/3.2.9": {
+      "Microsoft.AspNet.Mvc/5.2.9": {
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "3.2.9",
+          "Microsoft.AspNet.WebPages": "3.2.9"
+        },
         "runtime": {
-          "lib/net45/WebMatrix.Data.dll": {
+          "lib/net45/System.Web.Mvc.dll": {
+            "assemblyVersion": "5.2.9.0",
+            "fileVersion": "5.2.61129.10"
+          }
+        }
+      },
+      "Microsoft.AspNet.Razor/3.2.9": {
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {
             "assemblyVersion": "3.0.0.0",
             "fileVersion": "3.0.61129.10"
           }
         }
       },
-      "Microsoft.AspNet.WebPages.WebData/3.2.9": {
+      "Microsoft.AspNet.WebPages/3.2.9": {
         "dependencies": {
-          "Microsoft.AspNet.WebPages.Data": "3.2.9"
+          "Microsoft.AspNet.Razor": "3.2.9",
+          "Microsoft.Web.Infrastructure": "1.0.0"
         },
         "runtime": {
-          "lib/net45/WebMatrix.WebData.dll": {
+          "lib/net45/System.Web.Helpers.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.61129.10"
+          },
+          "lib/net45/System.Web.WebPages.Deployment.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.61129.10"
+          },
+          "lib/net45/System.Web.WebPages.Razor.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.61129.10"
+          },
+          "lib/net45/System.Web.WebPages.dll": {
             "assemblyVersion": "3.0.0.0",
             "fileVersion": "3.0.61129.10"
           }
@@ -192,6 +228,14 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
             "assemblyVersion": "1.2.3.0",
             "fileVersion": "1.2.3.0"
+          }
+        }
+      },
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.20105.407"
           }
         }
       },
@@ -279,6 +323,20 @@
       "path": "confluent.kafka/2.2.0",
       "hashPath": "confluent.kafka.2.2.0.nupkg.sha512"
     },
+    "Google.DataTable.Net.Wrapper/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/Dztq6kmia5EDou7xEAtm+yEFYQiso4fQrQ9c2V68p4TryEVdL46ipT+3jXN95HjTejHgC3DSHAVfalkdaYnSA==",
+      "path": "google.datatable.net.wrapper/4.1.0",
+      "hashPath": "google.datatable.net.wrapper.4.1.0.nupkg.sha512"
+    },
+    "highcharts.js/7.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ByLXvAC2S4S0eUS6FEeeRxw6cvIwidInqZ9mNje7iFU3jZQMNbbkbEESu7apnRhSBenuIHHs0Hi4j50UnfuXEg==",
+      "path": "highcharts.js/7.1.2",
+      "hashPath": "highcharts.js.7.1.2.nupkg.sha512"
+    },
     "librdkafka.redist/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -286,19 +344,26 @@
       "path": "librdkafka.redist/2.2.0",
       "hashPath": "librdkafka.redist.2.2.0.nupkg.sha512"
     },
-    "Microsoft.AspNet.WebPages.Data/3.2.9": {
+    "Microsoft.AspNet.Mvc/5.2.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-D6QnqWJ+d8Xr+M957eEECnY7gUPJmR+FLfn+L0hoCWrXQjNNmMnxGt8IVqXQAPlWJaJjrq6Kwh+9Eu3NvtxZMA==",
-      "path": "microsoft.aspnet.webpages.data/3.2.9",
-      "hashPath": "microsoft.aspnet.webpages.data.3.2.9.nupkg.sha512"
+      "sha512": "sha512-bcekKshCAh7kTWSMZPavQStSZQF/QmjEjO2gVWGITEd0/t5eRlb+ZLDE+az2qY1bZ8L6Hz0OCNeS0uzXtJcK5w==",
+      "path": "microsoft.aspnet.mvc/5.2.9",
+      "hashPath": "microsoft.aspnet.mvc.5.2.9.nupkg.sha512"
     },
-    "Microsoft.AspNet.WebPages.WebData/3.2.9": {
+    "Microsoft.AspNet.Razor/3.2.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Rrwovp6Ue75a3CckDF70NoEvURCW/Hjlqrn1BhRmPX8mNrAPyQFmve9+xYEopdo/cjRd65w7tkklpD9XCftBBg==",
-      "path": "microsoft.aspnet.webpages.webdata/3.2.9",
-      "hashPath": "microsoft.aspnet.webpages.webdata.3.2.9.nupkg.sha512"
+      "sha512": "sha512-QOJEnEw3xp+t5lMvYR5nGCF4CfZpHqr2p8uZOBEgDZoB6r2txtSj6581YNr+/dOHjI3YRlo1QAKGQoSohbQ/KA==",
+      "path": "microsoft.aspnet.razor/3.2.9",
+      "hashPath": "microsoft.aspnet.razor.3.2.9.nupkg.sha512"
+    },
+    "Microsoft.AspNet.WebPages/3.2.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yByb721lwv8YFsx1oKA5CLKXa89XVbVMkPafS4bg/bPelBEgChq/coFBQEkA4kwcabG7AR56w3vapnoZUfr2Cw==",
+      "path": "microsoft.aspnet.webpages/3.2.9",
+      "hashPath": "microsoft.aspnet.webpages.3.2.9.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "type": "package",
@@ -320,6 +385,13 @@
       "sha512": "sha512-Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
       "path": "microsoft.openapi/1.2.3",
       "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
+    },
+    "Microsoft.Web.Infrastructure/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FNmvLn5m2LTU/Rs2KWVo0SIIh9Ek+U0ojex7xeDaSHw/zgEP77A8vY5cVWgUtBGS8MJfDGNn8rpXJWEIQaPwTg==",
+      "path": "microsoft.web.infrastructure/1.0.0",
+      "hashPath": "microsoft.web.infrastructure.1.0.0.nupkg.sha512"
     },
     "Newtonsoft.Json/13.0.3": {
       "type": "package",

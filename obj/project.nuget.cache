@@ -1,16 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "jaAr9HDGl9QJzu2Ua+oWPDuSQbPATXkea71wuNwdbjJ26UvbGjnwh7F8m4oyIk6WBAFZ82fJc3qyt5fLgHaM2w==",
+  "dgSpecHash": "7VUXh1cPDHiQCNygR8F93kZpy3wC1gHjVLiF117DZgug7AFJ7u4AS0W4lUxZeC3aJOzbfiVDtwyTSX56Js87tw==",
   "success": true,
-  "projectFilePath": "D:\\DesafioBTG\\DesafioBTG.csproj",
+  "projectFilePath": "D:\\Projeto\\DesafioBTG\\DesafioBTG.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC-Lkz\\.nuget\\packages\\confluent.kafka\\2.2.0\\confluent.kafka.2.2.0.nupkg.sha512",
+    "C:\\Users\\PC-Lkz\\.nuget\\packages\\google.datatable.net.wrapper\\4.1.0\\google.datatable.net.wrapper.4.1.0.nupkg.sha512",
+    "C:\\Users\\PC-Lkz\\.nuget\\packages\\highcharts.js\\7.1.2\\highcharts.js.7.1.2.nupkg.sha512",
     "C:\\Users\\PC-Lkz\\.nuget\\packages\\librdkafka.redist\\2.2.0\\librdkafka.redist.2.2.0.nupkg.sha512",
-    "C:\\Users\\PC-Lkz\\.nuget\\packages\\microsoft.aspnet.webpages.data\\3.2.9\\microsoft.aspnet.webpages.data.3.2.9.nupkg.sha512",
-    "C:\\Users\\PC-Lkz\\.nuget\\packages\\microsoft.aspnet.webpages.webdata\\3.2.9\\microsoft.aspnet.webpages.webdata.3.2.9.nupkg.sha512",
+    "C:\\Users\\PC-Lkz\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.9\\microsoft.aspnet.mvc.5.2.9.nupkg.sha512",
+    "C:\\Users\\PC-Lkz\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.9\\microsoft.aspnet.razor.3.2.9.nupkg.sha512",
+    "C:\\Users\\PC-Lkz\\.nuget\\packages\\microsoft.aspnet.webpages\\3.2.9\\microsoft.aspnet.webpages.3.2.9.nupkg.sha512",
     "C:\\Users\\PC-Lkz\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\PC-Lkz\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
     "C:\\Users\\PC-Lkz\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\PC-Lkz\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512",
     "C:\\Users\\PC-Lkz\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\PC-Lkz\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\PC-Lkz\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
@@ -26,8 +30,8 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.WebPages.Data 3.2.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.AspNet.WebPages.Data",
+      "message": "Package 'Microsoft.AspNet.Mvc 5.2.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Mvc",
       "targetGraphs": [
         "net7.0"
       ]
@@ -36,8 +40,28 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.WebPages.WebData 3.2.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.AspNet.WebPages.WebData",
+      "message": "Package 'Microsoft.AspNet.Razor 3.2.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Razor",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.WebPages 3.2.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.WebPages",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Web.Infrastructure 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Web.Infrastructure",
       "targetGraphs": [
         "net7.0"
       ]

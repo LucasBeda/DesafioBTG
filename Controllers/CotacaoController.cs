@@ -50,9 +50,11 @@ namespace DesafioBTG.Controllers
                 if (payload != null)
                 {
                     if (_application.cotacao.GetCotacoes().Count == 0)
-                        _application.cotacao.GravarCotacao(payload);
+                        _application.cotacao.GravarCotacao(payload, _application.posicaoGrafico);
                     else
-                        _application.cotacao.AtualizarCotacao(payload);
+                        _application.cotacao.AtualizarCotacao(payload, _application.posicaoGrafico);
+
+                    _application.posicaoGrafico++;
                 }
             }
             catch (Exception e)
